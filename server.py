@@ -13,12 +13,7 @@ def ejemplo(name):
 @app.route('/palindromo/<palabra>', methods=['GET'])
 def ejercicio1(palabra):
     # Su código va aquí
-
-    #if (palabra .....)
-    # logica del palindromo
-    #
-
-    return "No es palidromo"
+    return
 
 @app.route('/operaciones', methods=['GET'])
 def ejercicio2():
