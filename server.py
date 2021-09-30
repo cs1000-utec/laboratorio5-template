@@ -10,10 +10,15 @@ def static_content(content):
 def ejemplo(name):
     return f"Hola, {name}"
 
-@app.route('/palindromo', methods=['GET'])
-def ejercicio1():
+@app.route('/palindromo/<palabra>', methods=['GET'])
+def ejercicio1(palabra):
     # Su código va aquí
-    return
+
+    #if (palabra .....)
+    # logica del palindromo
+    #
+
+    return "No es palidromo"
 
 @app.route('/operaciones', methods=['GET'])
 def ejercicio2():
