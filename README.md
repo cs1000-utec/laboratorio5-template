@@ -8,6 +8,8 @@
 
 ## Parte Calificada
 
+*Es libre de mostrar los resultados en el formato que usted desee.*
+
 ### Ejercicio 1
 
 Dentro del archivo `./server.py` encontrará la función `ejercicio1`. 
@@ -31,4 +33,6 @@ En el directorio `./static/html` encontrará el archivo `ejercicio4.html` en el 
 - Escribir un breve párrafo sobre un tema de su elección.
 - Agregar una imagen relevante al tema.
 
-Si desea, puede guiarse del archivo `cs_utec.html`. Las imágenes que utilice deberán ser guardardas en la carpeta `./static/images/`
+Si desea, puede guiarse del archivo `cs_utec.html`. Puede ingresar `localhost:8080/static/html/cs_utec.html` para ver dicho archivo en el navegador. Las imágenes que utilice deberán ser guardardas en la carpeta `./static/images/`
+
+*Tip: Coloque en el navegador `localhost:8080/static/html/ejercicio4.html` para ver el resultado de su ejercicio.*
