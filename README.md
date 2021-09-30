@@ -1,10 +1,20 @@
 # Laboratorio 5
 
-## Parte Dirigida
+## Parte Previa
 
 - No olvide que necesitará `git`, `python 3+`, `pip` y `Flask` para el desarrollo del laboratorio.
 
 - Se le recomienda tener instalada alguna IDE como [VSCode](https://code.visualstudio.com/download).
+
+## Parte Dirigida
+
+- Explicación de APIs y su uso en proyectos de Ing. de Software.
+
+- Explicar cómo ejecutar el proyecto localmente.
+
+- Explicar el API demo.
+
+- Explicación de los ejercicios.
 
 ## Parte Calificada
 
