@@ -24,7 +24,7 @@
 
 Dentro del archivo `./server.py` encontrará la función `ejercicio1`. 
 
-El objetivo es que pueda ingresar en su navegador web la ruta `localhost:8080/palindromo/<palabra>` y la API responda si la `palabra` ingresada es un [palíndromo](https://es.wikipedia.org/wiki/Pal%C3%ADndromo) o no.
+El objetivo es que pueda ingresar en su navegador web la ruta `localhost:8080/palindromo/<palabra>` (por ejemplo: ``localhost:8080/palindromo/oso`) y la API responda si la `palabra` ingresada es un [palíndromo](https://es.wikipedia.org/wiki/Pal%C3%ADndromo) o no.
 
 ### Ejercicio 2
 
