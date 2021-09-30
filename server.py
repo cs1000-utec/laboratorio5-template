@@ -10,17 +10,17 @@ def static_content(content):
 def ejemplo(name):
     return f"Hola, {name}"
 
-@app.route('', methods=['GET'])
+@app.route('/palindromo', methods=['GET'])
 def ejercicio1():
     # Su código va aquí
     return
 
-@app.route('', methods=['GET'])
+@app.route('/operaciones', methods=['GET'])
 def ejercicio2():
     # Su código va aquí
     return
 
-@app.route('', methods=['GET'])
+@app.route('/ordenar', methods=['GET'])
 def ejercicio3():
     # Su código va aquí
     return
