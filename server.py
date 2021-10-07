@@ -12,13 +12,21 @@ def ejemplo(name):
 
 @app.route('/palindromo/<palabra>', methods=['GET'])
 def ejercicio1(palabra):
-    # Su código va aquí
-    return
+    if ( palabra == palabra[::-1] ):
+        return "si es un palindromo"
+    else:
+        return "no, no es un palindromo"
+    
 
-@app.route('/operaciones', methods=['GET'])
-def ejercicio2():
-    # Su código va aquí
-    return
+@app.route('/operaciones/<num1>/<num2>', methods=['GET'])
+def ejercicio2(num1, num2):
+    
+    suma = int(num1) + int(num2)
+    resta = int(num1) - int(num2)
+    mult = int(num1) * int(num2)
+    divs = int(num1) / int(num2)
+
+    return f"Suma: {suma} resta: {resta} multiplicacion: {mult} division: {divs}"
 
 @app.route('/ordenar', methods=['GET'])
 def ejercicio3():
